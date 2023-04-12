@@ -1,0 +1,123 @@
+/*
+	Author:			
+	Assignment:		Lab 9
+	Date:			30 Mar 2022
+	Purpose:		Choosing a color scheme/Using float to
+					position images/Learning a little about
+					Linux
+*/
+
+body {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.2em;
+	background-color: rgb(2, 24, 86);
+	color: rgb(127, 146, 198);
+}
+
+header, nav, article, footer {
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	height: 220px;
+	background-color: rgb(22, 53, 139);
+	color: rgb(97, 105, 126);
+	padding: 25px 0;
+}
+
+nav {
+	height: 2em;
+	padding: 0;
+	background-color: rgb(36, 45, 69);
+	border-bottom: 1px solid;
+	margin-top: 0;
+}
+
+nav a {
+	display: block;
+	width: 75px;
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav a:link, nav a:visited {
+	background-color: rgb(2, 24, 86);
+	color: rgb(127, 146, 198);
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color: rgb(2, 24, 86);
+	color: rgb(127, 146, 198);
+	border: 1px solid rgb(127, 146, 198);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(97, 105, 126);
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 150px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+footer {
+	clear: both;
+	line-height: 2em;
+	margin: 0 auto;
+	background-color: rgb(22, 53, 139);
+	color: rgb(97, 105, 126);
+}
+
+h1, h2 {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	border-bottom: 2px solid rgba(0,0,200,.7);
+	color: rgb(243, 243, 243);
+}
+
+header h1, header h2 {
+	border-width: 0;
+	color: rgb(243, 243, 243);
+}
+
+article {
+	box-sizing: border-box;
+	border: 1px solid /* color here */;
+	color: rgb(243, 243, 243);
+	padding: 15px;
+}
+
+
+/* Enter your rules above this one */
+.cite {
+	display: block;
+	width: 400px;
+	float: right;
+	font-size: .8em;
+	font-style: italic;
+	margin: 10px 100px 20px 0;
+}
+
+
+
